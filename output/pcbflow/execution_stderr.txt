@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 16, in <module>
+    brd.set_grid(0.5)
+    ^^^^^^^^^^^^
+AttributeError: 'Board' object has no attribute 'set_grid'
