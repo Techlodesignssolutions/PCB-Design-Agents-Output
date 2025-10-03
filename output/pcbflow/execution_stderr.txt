@@ -1,5 +1,5 @@
 Traceback (most recent call last):
-  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 52, in safe_kicad_part
+  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 59, in safe_kicad_part
     return KiCadPart(dc, libraryfile=path, side=side)
   File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\venv\Lib\site-packages\pcbflow\kicad.py", line 42, in __init__
     self.parse()
@@ -15,11 +15,17 @@ IndexError: list index out of range
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 65, in <module>
+  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 72, in <module>
     J1 = safe_kicad_part(brd.DC((25.0, 4.0)), 'Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical', side='top')
-  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 54, in safe_kicad_part
-    np = normalize_kicad_mod_for_pcbflow(path)
-  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 46, in normalize_kicad_mod_for_pcbflow
-    open(out, 'w', encoding='utf-8').write(norm)
-    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-OSError: [Errno 22] Invalid argument: 'C:\\Users\\matth\\AppData\\Local\\Temp\\pcbflow_fp_58id0ty7\norm.kicad_mod'
+  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 62, in safe_kicad_part
+    return KiCadPart(dc, libraryfile=np, side=side)
+  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\venv\Lib\site-packages\pcbflow\kicad.py", line 42, in __init__
+    self.parse()
+    ~~~~~~~~~~^^
+  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\venv\Lib\site-packages\pcbflow\kicad.py", line 318, in parse
+    self._parse_fp_text(v["fp_text"])
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\venv\Lib\site-packages\pcbflow\kicad.py", line 156, in _parse_fp_text
+    layer = self._map_layers(e["layer"])[0]
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
