@@ -1,5 +1,4 @@
 Traceback (most recent call last):
-  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 16, in <module>
-    brd.set_grid(0.5)
-    ^^^^^^^^^^^^
-AttributeError: 'Board' object has no attribute 'set_grid'
+  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 18, in <module>
+    J1 = brd.DC((25.0, 4.0), 'J1', 'JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical')
+TypeError: Board.DC() takes from 2 to 3 positional arguments but 4 were given
