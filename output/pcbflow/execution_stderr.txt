@@ -1,14 +1,8 @@
 Traceback (most recent call last):
-  File "C:\Users\matth\output\pcbflow\test_layout.py", line 304, in <module>
+  File "C:\Users\matth\output\pcbflow\test_layout.py", line 306, in <module>
     draw_pad_geometry('JST_2_THT', J1_ORIGIN, 'J1')
     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\matth\output\pcbflow\test_layout.py", line 292, in draw_pad_geometry
-    brd.add_named_rect(tl, br, layer='top', name=f'{ref}_tht')
-    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\venv\Lib\site-packages\pcbflow\board.py", line 314, in add_named_rect
-    self.add_named_poly(coords, layer, name)
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
-  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\venv\Lib\site-packages\pcbflow\board.py", line 318, in add_named_poly
-    self.layers[layer].add_named(poly, name)
-    ~~~~~~~~~~~^^^^^^^
-KeyError: 'top'
+  File "C:\Users\matth\output\pcbflow\test_layout.py", line 295, in draw_pad_geometry
+    brd.add_to_mask_layers(tl, br)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: Board.add_to_mask_layers() takes 2 positional arguments but 3 were given
