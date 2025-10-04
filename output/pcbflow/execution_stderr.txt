@@ -1,5 +1,5 @@
 Traceback (most recent call last):
   File "C:\Users\matth\output\pcbflow\test_layout.py", line 330, in <module>
-    _x1, _y1 = _a
+    _x1, _y1 = (_a.at if hasattr(_a, 'at') else _a)
     ^^^^^^^^
 TypeError: cannot unpack non-iterable Draw object
