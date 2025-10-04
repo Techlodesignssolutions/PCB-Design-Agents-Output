@@ -1,25 +1,5 @@
 Traceback (most recent call last):
-  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\test_layout.py", line 8, in <module>
-    from pcbflow import *
-  File "C:\Users\matth\AppData\Roaming\Python\Python313\site-packages\pcbflow\__init__.py", line 52, in <module>
-    from .svgout import svg_write
-  File "C:\Users\matth\AppData\Roaming\Python\Python313\site-packages\pcbflow\svgout.py", line 11, in <module>
-    from cairosvg import svg2png, svg2pdf
-  File "C:\Users\matth\AppData\Roaming\Python\Python313\site-packages\cairosvg\__init__.py", line 25, in <module>
-    from . import surface  # noqa isort:skip
-    ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\matth\AppData\Roaming\Python\Python313\site-packages\cairosvg\surface.py", line 9, in <module>
-    import cairocffi as cairo
-  File "C:\Users\matth\AppData\Roaming\Python\Python313\site-packages\cairocffi\__init__.py", line 60, in <module>
-    cairo = dlopen(
-        ffi, ('cairo-2', 'cairo', 'libcairo-2'),
-        ('libcairo.so.2', 'libcairo.2.dylib', 'libcairo-2.dll'))
-  File "C:\Users\matth\AppData\Roaming\Python\Python313\site-packages\cairocffi\__init__.py", line 57, in dlopen
-    raise OSError(error_message)  # pragma: no cover
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-OSError: no library called "cairo-2" was found
-no library called "cairo" was found
-no library called "libcairo-2" was found
-cannot load library 'libcairo.so.2': error 0x7e.  Additionally, ctypes.util.find_library() did not manage to locate a library called 'libcairo.so.2'
-cannot load library 'libcairo.2.dylib': error 0x7e.  Additionally, ctypes.util.find_library() did not manage to locate a library called 'libcairo.2.dylib'
-cannot load library 'libcairo-2.dll': error 0x7e.  Additionally, ctypes.util.find_library() did not manage to locate a library called 'libcairo-2.dll'
+  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\test_layout.py", line 278, in <module>
+    brd.route_wire([J1.pads[0], R1.pads[0]], 0.25)
+    ^^^^^^^^^^^^^^
+AttributeError: 'Board' object has no attribute 'route_wire'
