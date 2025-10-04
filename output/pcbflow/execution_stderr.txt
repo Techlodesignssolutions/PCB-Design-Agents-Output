@@ -1,5 +1,5 @@
 Traceback (most recent call last):
-  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 154, in <module>
+  File "C:\css\N8N-Data\Jarvis Agent\PCB Programmatic\output\pcbflow\dual_led_indicator.py", line 144, in <module>
     _pads = [J1.pads[0], R1.pads[0], R2.pads[0]]
              ~~~~~~~^^^
 IndexError: list index out of range
