@@ -2,7 +2,7 @@
   (version "D")
   (design
     (source "test_netlist.py")
-    (date "10/04/2025 04:23 PM")
+    (date "10/04/2025 11:00 PM")
     (tool "SKiDL (2.1.1)")
     (sheet
       (number 1)
@@ -55,7 +55,7 @@
         (field
           (name "Datasheet") "~")
         (field
-          (name "SKiDL Tag") "Aaa8OUaddJ")
+          (name "SKiDL Tag") "Cw0pHVzMDn")
         (field
           (name "SKiDL Line") "test_netlist.py:24"))
       (libsource
@@ -64,7 +64,7 @@
       (sheetpath
         (names "/")
         (tstamps "/"))
-      (tstamps "9d91a311-799b-5e68-b857-61bd6c990e44"))
+      (tstamps "4c56469f-39f2-544e-b0e6-50d80a99e7fe"))
     (comp
       (ref "J1")
       (value "JST")
@@ -78,7 +78,7 @@
         (field
           (name "Datasheet") "~")
         (field
-          (name "SKiDL Tag") "xQocduZ0dJ")
+          (name "SKiDL Tag") "dhA68I82wF")
         (field
           (name "SKiDL Line") "test_netlist.py:23"))
       (libsource
@@ -87,7 +87,7 @@
       (sheetpath
         (names "/")
         (tstamps "/"))
-      (tstamps "f20e1c4a-186e-50cd-819d-7cba81bc3aba"))
+      (tstamps "6eafd706-aef1-58b5-8619-d23580d22be8"))
     (comp
       (ref "R1")
       (value "220")
@@ -101,7 +101,7 @@
         (field
           (name "Datasheet") "~")
         (field
-          (name "SKiDL Tag") "M4jGNPIcoM")
+          (name "SKiDL Tag") "SQsxdXABRD")
         (field
           (name "SKiDL Line") "test_netlist.py:25"))
       (libsource
@@ -110,7 +110,7 @@
       (sheetpath
         (names "/")
         (tstamps "/"))
-      (tstamps "da45580b-c64c-586b-84a4-e814bbf72ca1")))
+      (tstamps "b96e3ba5-13e6-5ba5-8a06-35904efb4000")))
   (nets
     (net
       (code 1)
