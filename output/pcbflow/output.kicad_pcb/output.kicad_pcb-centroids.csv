@@ -1,0 +1,4 @@
+Designator,Center(X),Center(Y),Rotatation,Layer,Note
+1,25.000,4.000,0,top,GEN_JST_2_THT
+2,25.000,15.000,0,top,GEN_LED_0805
+3,25.000,10.000,0,top,GEN_R_0805
