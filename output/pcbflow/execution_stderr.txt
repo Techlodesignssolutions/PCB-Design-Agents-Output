@@ -1,5 +1,8 @@
 Traceback (most recent call last):
-  File "C:\Users\matth\output\pcbflow\test_layout.py", line 278, in <module>
-    _a = J1.pads[0]
-         ~~~~~~~^^^
-IndexError: list index out of range
+  File "C:\Users\matth\output\pcbflow\test_layout.py", line 337, in <module>
+    print('\u2713 Board file saved: output.kicad_pcb')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
