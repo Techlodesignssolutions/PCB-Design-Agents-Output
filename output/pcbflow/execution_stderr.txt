@@ -1,8 +1,5 @@
 Traceback (most recent call last):
-  File "C:\Users\matth\output\pcbflow\test_layout.py", line 306, in <module>
-    draw_pad_geometry('JST_2_THT', J1_ORIGIN, 'J1')
-    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\matth\output\pcbflow\test_layout.py", line 295, in draw_pad_geometry
-    brd.add_to_mask_layers(tl, br)
-    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
-TypeError: Board.add_to_mask_layers() takes 2 positional arguments but 3 were given
+  File "C:\Users\matth\output\pcbflow\test_layout.py", line 330, in <module>
+    _x1, _y1 = _a
+    ^^^^^^^^
+TypeError: cannot unpack non-iterable Draw object
